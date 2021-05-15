@@ -1,0 +1,78 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#header
+{
+	background-color: black;
+	height:30%;
+	width: 100%;
+	color: white;
+
+}
+#content
+{
+	
+	width:100%;
+
+}
+#footer
+{
+	background-color:blue;
+	width: 100%;
+	float: left;
+}	
+ul{
+	list-style-type:none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	
+}
+
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	padding: 15px 20px;
+	text-decoration: none;
+	margin: 0px;
+	
+}
+
+li a:hover{
+	background-color: green;
+}
+table{
+	margin: 15px auto;
+	width:50%;
+	box-sizing: border-box;
+}
+input[type=text],input[type=password],input[type=date] {
+	width:100%;
+	box-sizing:border-box;
+	padding:15px;
+	margin:10px;
+}
+
+tr:nth-child(even){
+	background-color: rgba(0, 0, 0, 0.3);
+}
+tr:hover{
+	background-color: rgba( 0, 0, 0, 0.1);
+}
